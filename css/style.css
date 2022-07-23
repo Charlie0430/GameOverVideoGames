@@ -9,6 +9,50 @@
   margin: 50px;"
 }
 
+.navBar{
+  list-style:none;
+  padding: 20px 40px;
+}
+
+
+@media screen and (max-width 480px){
+  .navStyle {
+    style="float: left; 
+    margin: 25px;"
+  }
+
+  .navBar{
+    list-style:none;
+    padding: 10px 20px;
+  }
+
+  Section.hero header h1 {
+  color:gold;
+  font-size: 100px;
+  text-align:center;
+  padding-bottom:-20px;
+  font-family: Garamond;
+}
+
+
+.tableImages{
+    max-width:  100px;
+    width: 100px;
+    height: 200px;
+}
+
+
+.forms{
+  width: 100px;
+  disply:inline-block;
+  box-sizing: border-box;
+}
+
+
+
+}
+
+
 .BodyStyle{
   background-color:black;
 }
@@ -25,7 +69,6 @@ Section.hero header h1 {
   font-size: 200px;
   text-align:center;
   padding-bottom:-20px;
-  border: 1px solid white;
   font-family: Garamond;
 }
 
@@ -43,6 +86,11 @@ Section.hero header h1 {
   top:0px;right:0px;
 }
 
+.footerStyle{
+  display: block;
+  height: 500px;
+}
+
 .imageRighter{
   border-radius: 10px;
   width:150px;
@@ -54,7 +102,7 @@ Section.hero header h1 {
    font-size: 100px;
    text-align:center;
    padding-top:20px;
-   border: 1px solid white;
+   
    position: absolute;
    top:525px; 
    left:325px;
@@ -162,7 +210,7 @@ section.social h5  {
 }
 
 .FootPara{
-    border: 1px solid white;
+    
     width: 300px;
     text-align: center;
     color: gold;
