@@ -1,86 +1,97 @@
 <html>
 	<head>
 		<title>GameOver Video Games</title>
+		<link href="../css/style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body style="background-color:black;">
+	<body class="BodyStyle">
 		<nav class="nav-primary">
 			<ul style="list-style:none;padding: 20px 40px;">
-				<li style="float: left; margin: 50px;"><a style="color: white;" href="home.html" title="Go to our homepage">Home</a></li>
-				<li style="float: left;margin: 50px;"><a style="color: white;" href="about.html" title="Go see our about">About</a></li>
-				<li style ="float: left;margin: 50px;"><a style="color: white;" href="Contact.html" title="Contact us">Contact</a></li>	
+				<li class="liststyle"><a class="colorwhite" href="home.html" title="Go to our homepage">Home</a></li>
+				<li class="liststyle"><a class="colorwhite" href="about.html" title="Go see our about">About</a></li>
+				<li class="liststyle"><a class="colorwhite" href="Contact.html" title="Contact us">Contact</a></li>	
 				<li>
 					<a href="index.html"  title="Go Home">
-						<img style="border-radius: 10px;width:150px; position:absolute; top:0px;right:0px;" src="GameOver-Video-Games.png" alt="GameOver Video Games Logo" />
+						<img class="imageRight" src="GameOver-Video-Games.png" alt="GameOver Video Games Logo" />
 					</a>
 				</li>
 			</ul>	
 		</nav>
 
-
-		<header>
-			<h1 style="color:gold;font-size: 200px;text-align:center;padding-bottom:-20px;border: 1px solid white;font-family: Garamond;">
-				GameOver <br>Video Games
-			</h1>
-			<h3 style="color:#00D8D8;font-size: 100px;text-align:center;padding-top:-20px;border: 1px solid white;position: absolute;top:525px; left:490px;font-family: Garamond;">
-				Shop Retro Video Games <br> And Consoles
-			</h3>
-		</header>
-
+	  
 
 
 		<!-- "Hero"-->
 		<section class="hero">
-		<h1> Shop Retro Video Games and Consoles</h1>
-		<p>Everything From Atari To Xbox </p>
-		<p>Buy Sell Trade </p>
-		<a href="shop.html" title="Go Shop">Shop</a>
+
+
+			<header>
+				<h1 >
+					GameOver <br>Video Games
+				</h1>
+				<h3 class="retro">
+					Shop Retro Video Games <br> And Consoles
+				</h3>
+				<button class="but"><a class="aInsideBut" href="shop.html" title="Go Shop">Shop</a>
+			</button>
+			</header>
+		
+		
 		</section>
 
 		<!-- "Featured Pages"-->
 		<section class="featured-pages">
-			<table>
+			<table class="pag">
 				<td>
 					<a href="home.html" title="Go to our homepage">
-						<img style="width:200px;" src="pexels-anurag-sharma-2728255.jpg" alt="A person playing video games in front of the tv"/>
-						<p>Home</p>
+						<img class="tableImages" src="pexels-anurag-sharma-2728255.jpg" alt="A person playing video games in front of the tv"><div class="underImage">Home</div></img>
+						
 	        		</a>
 	        	</td>
 	        	<td>
 					<a href="About.html" title="Go see our about">
-						<img style="width:200px;" src="pexels-mariah-n-9281229.jpg" alt="N64"/>
-						<p>About</p>
-						<iframe src="about.html" title="AboutPage">ABout Webpage</iframe>
+						<img class="tableImages" src="pexels-mariah-n-9281229.jpg" alt="N64"><div class="underImage">About</div></img>
+						
+						
 	       			</a>
 	    		</td>
 	    		<td>
 					<a  href="Contact.html" title="Contact us">
-						<img style="width:200px;" src="pexels-cottonbro-4835419.jpg" alt="campus"/>
-						<p>Contact</p>
+
+						<img class="tableImages" src="pexels-cottonbro-4835419.jpg" alt="campus"><div class="underImage">Contact</div></img>
+						
 	        		</a>
 	        	</td>
 	        </table>
     </section>
 
+    <div class="featgames">
     	<!-- "Featured Games"-->
-    <section>
-    	<h4 style="color:white;">Featured Games</h4>
-    	<p style="color:white;">1. Mario Bros. (1983)</p>
-    	<p style="color:white;">2. Mortal Kombat (1992)</p>
-    	<p style="color:white;">3. The Legend of Zelda (1986)</p>
-    </section>
-
-    <footer style="border: 1px solid white;">
-    	<img src="images/GameOver Video Games.png" alt="GameOver Video Games Logo" />
-    	<h5 style="color:white;">Follow Us</h5>
-    	<p style="color:white;">Facebook</p>
-    	<p style="color:white;">Twitter</p>
-    	<p style="color:white;">Instagram</p>
-    	<p style="color:white;">Newsletter Signup</p>
-    	<p style="color:white;">Contact Us</p>
-    	<form>
-    		<input type="" name=""> </input>
-    		<input type="" name=""> </input>
+    	<section class="featured-games">
+    		<h4 class="h4gam">Featured Games</h4>
+    		<p class="h4Games">1. Mario Bros. (1983)</p>
+    		<p class="h4Games">2. Mortal Kombat (1992)</p>
+    		<p class="h4Games">3. The Legend of Zelda (1986)</p>
+    	</section>
+	</div>
+    <!-- "Footer"-->
+    <section Class="social">
+    <footer style="border: 1px solid white;display: block;height: 500px;">
+    	<img class="imageRighter" src="GameOver-Video-Games.png" alt="GameOver Video Games Logo" />
+    	<h5>Follow Us</h5>
+    <ul style="list-style: none;">
+    	<li><p class="FootPara">Facebook</p></li>
+    	<li><p class="FootPara">Twitter</p></li>
+    	<li><p class="FootPara">Instagram</p></li>
+    	<li><p class="FootPara">Newsletter Signup</p></li>
+    	<li><p class="FootPara">Contact Us</p></li>
+    	</ul>
+    	<form >
+    		<input class="forms" type="text" value="First Name"></input>
+    		<input class="forms" type="text" value="Last Name"></input>
     	</form>
     </footer>
+    </section>
+    <iframe src="about.html" title="AboutPage">ABout Webpage</iframe>
 	</body>	
 </html>

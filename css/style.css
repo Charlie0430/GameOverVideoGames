@@ -1,4 +1,172 @@
+:root {
+    --gameover-primary: #000000;
+}
+
+
+
 .navStyle {
   style="float: left; 
   margin: 50px;"
 }
+
+.BodyStyle{
+  background-color:black;
+}
+
+Section.hero {
+    width: 100vw;
+    height:100vh;
+    background: url("../images/pexels-kai-pilger-1341279.jpg") ;
+  
+
+}
+Section.hero header h1 {
+  color:gold;
+  font-size: 200px;
+  text-align:center;
+  padding-bottom:-20px;
+  border: 1px solid white;
+  font-family: Garamond;
+}
+
+@media screen and (max-width 480px){
+  Section.hero header h1 {
+  font-size: 200px;
+  line-height: 1;
+}
+}
+
+.imageRight{
+  border-radius: 10px;
+  width:150px;
+  position:absolute;
+  top:0px;right:0px;
+}
+
+.imageRighter{
+  border-radius: 10px;
+  width:150px;
+ float: right;
+}
+
+.retro {
+   color:#00D8D8;
+   font-size: 100px;
+   text-align:center;
+   padding-top:20px;
+   border: 1px solid white;
+   position: absolute;
+   top:525px; 
+   left:325px;
+   right:400;
+   font-family: Garamond;
+   width:  70vw;
+}
+
+ .but {
+    background-color: #ff00f0;
+    
+    position: absolute;
+    top:900px; 
+    left:910px;
+    text-align:center;
+    width: 7vw;
+    height:4vh;
+    
+}
+
+.underImage{
+  background-color: black; 
+  width:200px;
+   height: 25px;
+   text-align: center; 
+   color: gold;
+   text-decoration: none;
+}
+
+.aInsideBut{
+  text-decoration: none;
+  color: #faed27;
+}
+
+  section.featured-pages table td  {
+      display: inline-block;
+      padding-left: 300px;
+      float:  left;
+      width:  100px;
+      height: 100px;
+      object-fit: cover;
+    margin: auto;
+
+  }
+  
+.pag{
+  background-color: white; 
+  width:2000px;
+  height: 320px;
+  align-content: center;
+}
+
+
+  
+  section.featured-games {
+
+
+  }
+  .featgames{
+    background-color:  #00d8d8; 
+    width:2000px;
+    height: 320px;
+    text-align: center;
+  }
+
+ .h4Games{
+    color:black;
+    font-size: 35px;
+
+  }
+.h4gam{
+  color: ff00f0;
+  font-size: 50;
+
+}
+ 
+
+.liststyle {
+  float: left; 
+  margin: 50px;
+
+}
+
+.colorwhite{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section.social h5  {
+  text-align: center ;
+  font-size: 50px;
+  color: #ff00f0;
+}
+
+.forms{
+  width: 100px;
+}
+
+
+
+.tableImages{
+    width:  200px;
+    height: 200px;
+}
+
+.FootPara{
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
+    color: gold;
+     font-size: 35px;
+   float: left;
+   margin: 50px;
+  }
